@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Питомник кошек редких пород</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="main-header">
+    <nav class="header-nav">
+      <a href="#about" class="nav-link">О нас</a>
+      <a href="#catalog" class="nav-link">Кошки питомника</a>
+    </nav>
+
+    <div class="header-contacts">
+      <a href="https://t.me/your_channel" class="contact-icon-link" target="_blank">
+        <img src="images/tg.svg" alt="Telegram" class="contact-icon">
+      </a>
+      <a href="tel:+79000000000" class="contact-icon-link">
+        <img src="images/telephone.svg" alt="Телефон" class="contact-icon">
+      </a>
+    </div>
+  </header>
+
+  <section class="hero-section">
+    <div class="hero-container">
+      <img src="images/paw-right.svg" alt="" class="bg-paw paw-right">
+      <img src="images/paw-left.svg" alt="" class="bg-paw paw-left">
+
+      <div class="hero-content">
+        <div class="hero-text-group">
+          <h1 class="hero-title">Питомник кошек <br class="tablet-only-br"> редких пород</h1>
+          <p class="hero-text">
+            Породистые котята и верные друзья ждут вас.
+          </p>
+        </div>
+        <button class="hero-button">Забронировать котика</button>
+      </div>
+
+      <img src="images/cat orange.png" alt="Рыжий кот" class="hero-cat-img">
+    </div>
+  </section>
+
+  <section id="about" class="about-section">
+    <h2 class="about-title">О НАС</h2>
+    
+    <div class="about-grid">
+      <div class="about-column">
+        <div class="fact-card top-card">
+          <span class="fact-number">10</span>
+          <span class="fact-label">лет работы</span>
+        </div>
+        <div class="fact-card bottom-card">
+          <p class="fact-text">Работаем с 2016 года в Москве и Московской области</p>
+        </div>
+      </div>
+
+      <div class="about-column">
+        <div class="fact-card top-card">
+          <span class="fact-number">99%</span>
+          <span class="fact-label">довольных клиентов</span>
+        </div>
+        <div class="fact-card bottom-card">
+          <p class="fact-text">Помогаем найти идеального друга редкой породы</p>
+        </div>
+      </div>
+
+      <div class="about-column">
+        <div class="fact-card top-card">
+          <span class="fact-number">3</span>
+          <span class="fact-label">породы кошек</span>
+        </div>
+        <div class="fact-card bottom-card">
+          <p class="fact-text">Элитные корни и чистота породы гарантированы</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="catalog" class="catalog-section">
+    <h2 class="catalog-title">Кошки питомника</h2>
+
+    <div class="catalog-tabs">
+      <button class="tab-btn active" data-target="british-cats">Британская</button>
+      <button class="tab-btn" data-target="munchkin-cats">Манчкин</button>
+      <button class="tab-btn" data-target="mainecoon-cats">Мейн-Кун</button>
+    </div>
+
+    <div class="catalog-grid">
+      
+      <div class="breed-content active" id="british-cats">
+        <article class="cat-card">
+          <div class="cat-image-wrapper">
+            <img src="images/sofa.png" alt="Британская кошка Софа" class="cat-img">
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-name">Софа</h3>
+            <p class="cat-breed">Британская кошка</p>
+          </div>
+          <div class="cat-footer">
+            <div class="cat-price-block">
+              <span class="price-current">1222 Р</span>
+              <span class="price-old">2000 Р</span>
+            </div>
+            <button class="cat-book-btn">Забронировать</button>
+          </div>
+        </article>
+
+        <article class="cat-card">
+          <div class="cat-image-wrapper">
+            <img src="images/murzik.png" alt="Британский кот Мурзик" class="cat-img">
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-name">Мурзик</h3>
+            <p class="cat-breed">Британская кошка</p>
+          </div>
+          <div class="cat-footer">
+            <div class="cat-price-block">
+              <span class="price-current">1222 Р</span>
+              <span class="price-old">2000 Р</span>
+            </div>
+            <button class="cat-book-btn">Забронировать</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="breed-content" id="munchkin-cats">
+        <article class="cat-card">
+          <div class="cat-image-wrapper">
+            <img src="images/ricardo.png" alt="Кот Манчкин Рикардо" class="cat-img">
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-name">Рикардо</h3>
+            <p class="cat-breed">Манчкин</p>
+          </div>
+          <div class="cat-footer">
+            <div class="cat-price-block">
+              <span class="price-current">1500 Р</span>
+              <span class="price-old">2500 Р</span>
+            </div>
+            <button class="cat-book-btn">Забронировать</button>
+          </div>
+        </article>
+
+        <article class="cat-card">
+          <div class="cat-image-wrapper">
+            <img src="images/yasha.png" alt="Кот Манчкин Яша" class="cat-img">
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-name">Яша</h3>
+            <p class="cat-breed">Манчкин</p>
+          </div>
+          <div class="cat-footer">
+            <div class="cat-price-block">
+              <span class="price-current">1500 Р</span>
+              <span class="price-old">2500 Р</span>
+            </div>
+            <button class="cat-book-btn">Забронировать</button>
+          </div>
+        </article>
+      </div>
+
+      <div class="breed-content" id="mainecoon-cats">
+        <article class="cat-card">
+          <div class="cat-image-wrapper">
+            <img src="images/linda.png" alt="Кошка Мейн-Кун Линда" class="cat-img">
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-name">Линда</h3>
+            <p class="cat-breed">Мейн-Кун</p>
+          </div>
+          <div class="cat-footer">
+            <div class="cat-price-block">
+              <span class="price-current">1800 Р</span>
+              <span class="price-old">3000 Р</span>
+            </div>
+            <button class="cat-book-btn">Забронировать</button>
+          </div>
+        </article>
+
+        <article class="cat-card">
+          <div class="cat-image-wrapper">
+            <img src="images/maks.png" alt="Кот Мейн-Кун Макс" class="cat-img">
+          </div>
+          <div class="cat-info">
+            <h3 class="cat-name">Макс</h3>
+            <p class="cat-breed">Мейн-Кун</p>
+          </div>
+          <div class="cat-footer">
+            <div class="cat-price-block">
+              <span class="price-current">1800 Р</span>
+              <span class="price-old">3000 Р</span>
+            </div>
+            <button class="cat-book-btn">Забронировать</button>
+          </div>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="faq-section">
+    <h2 class="faq-title">Часто задаваемые вопросы</h2>
+    
+    <div class="faq-container">
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>Какие документы я получу при покупке?</span>
+          <div class="faq-arrow"></div>
+        </summary>
+        <div class="faq-answer">
+          <p>При покупке котенка вы получаете полный пакет официальных документов:</p>
+          <ul>
+            <li><strong>Договор купли-продажи</strong>, закрепляющий права обеих сторон.</li>
+            <li><strong>Ветеринарный паспорт</strong> международного образца со всеми прививками.</li>
+            <li><strong>Метрику или родословную</strong>, подтверждающую чистокровность.</li>
+          </ul>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>Как подготовить дом к приезду котенка?</span>
+          <div class="faq-arrow"></div>
+        </summary>
+        <div class="faq-answer">
+          <p>Рекомендуем заранее приобрести базовые вещи: лоток, миски для корма и воды, устойчивую когтеточку, переноску и безопасные игрушки. Также уберите из зоны доступа опасные комнатные растения и открытые провода.</p>
+        </div>
+      </details>
+
+      <details class="faq-item">
+        <summary class="faq-question">
+          <span>Оказываете ли вы поддержку после покупки?</span>
+          <div class="faq-arrow"></div>
+        </summary>
+        <div class="faq-answer">
+          <p>Да, мы всегда остаемся на связи с нашими покупателями. Вы можете обратиться к нам за консультацией по вопросам ухода, правильного питания, воспитания или планового посещения ветеринара.</p>
+        </div>
+      </details>
+    </div>
+  </section>
+
+  <footer class="main-footer">
+    <div class="footer-copyright">
+      © All Rights Reserved. Acme Inc.
+    </div>
+    <div class="footer-socials">
+      <a href="https://t.me/your_channel" class="footer-icon-link" target="_blank">
+        <img src="images/tg.svg" alt="Telegram" class="footer-icon">
+      </a>
+      <a href="tel:+79000000000" class="footer-icon-link">
+        <img src="images/telephone.svg" alt="Телефон" class="footer-icon">
+      </a>
+    </div>
+  </footer>
+
+  <div id="bookingModal" class="modal-overlay">
+    <div class="modal-window">
+      <div class="modal-paw modal-paw-top"></div>
+      <div class="modal-paw modal-paw-bottom"></div>
+      
+      <button class="modal-close-btn" id="closeModalBtn" aria-label="Закрыть">&times;</button>
+      
+      <div class="modal-content">
+        <h2 class="modal-title">Забронировать котика</h2>
+        <p class="modal-subtitle">Свяжемся с вами в течение 15 минут</p>
+        
+        <form class="modal-form" id="bookingForm">
+          <div class="form-group">
+            <label for="clientName">Фамилия Имя</label>
+            <input type="text" id="clientName" name="name" required autocomplete="name">
+          </div>
+          
+          <div class="form-group">
+            <label for="clientPhone">Номер телефона</label>
+            <input type="tel" id="clientPhone" name="phone" required autocomplete="tel" placeholder="+7 (___) ___-__-__">
+          </div>
+          
+          <button type="submit" class="modal-submit-btn">Забронировать котика</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
