@@ -307,7 +307,7 @@
     </div>
   </footer>
 
-  <div id="bookingModal" class="modal-overlay">
+<div id="bookingModal" class="modal-overlay">
     <div class="modal-window">
       <div class="modal-paw modal-paw-top"></div>
       <div class="modal-paw modal-paw-bottom"></div>
@@ -321,12 +321,16 @@
         <form class="modal-form" id="bookingForm">
           <div class="form-group">
             <label for="clientName">Фамилия Имя</label>
-            <input type="text" id="clientName" name="name" required autocomplete="name">
+            <input type="text" id="clientName" name="name" required autocomplete="name"
+                   pattern="^[А-Яа-яЁёA-Za-z]{2,}(\s[А-Яа-яЁёA-Za-z]{2,})*(-[А-Яа-яЁёA-Za-z]{2,})*$"
+                   title="Имя должно содержать не менее 2 символов и состоять только из букв.">
           </div>
           
           <div class="form-group">
             <label for="clientPhone">Номер телефона</label>
-            <input type="tel" id="clientPhone" name="phone" required autocomplete="tel" placeholder="+7 (___) ___-__-__">
+            <input type="tel" id="clientPhone" name="phone" required autocomplete="tel" placeholder="+7 (___) ___-__-__"
+                   pattern="^(\+7|8)?\s?\(?\d{3}\)?\s?\d{3}-?\d{2}-?\d{2}$"
+                   title="Введите корректный номер телефона (например: +7 (999) 123-45-67 или 89991234567)">
           </div>
           
           <button type="submit" class="modal-submit-btn">Забронировать котика</button>
@@ -334,7 +338,6 @@
       </div>
     </div>
   </div>
-  
   <script src="script.js"></script>
 </body>
 </html>
