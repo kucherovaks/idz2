@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   
   /* ==========================================================================
-     ЛОГИКА МОДАЛЬНОГО ОКНА (Ваш исходный код)
+     МОДАЛЬНОЕ ОКНЛ
      ========================================================================== */
   const modal = document.getElementById('bookingModal');
   const closeBtn = document.getElementById('closeModalBtn');
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
   /* ==========================================================================
-     НОВАЯ ЛОГИКА: ПЕРЕКЛЮЧЕНИЕ ТАБОВ (КОШКИ ПИТОМНИКА)
+     ПЕРЕКЛЮЧЕНИЕ ТАБОВ (КОШКИ ПИТОМНИКА)
      ========================================================================== */
   const tabs = document.querySelectorAll('.tab-btn');
   const contents = document.querySelectorAll('.breed-content');
