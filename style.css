@@ -32,7 +32,6 @@ body {
   align-items: center;
   background: #E2CDAF;
   padding: 0 270px;
-  position: sticky;          /* Хедер будет закреплен при скролле */
   top: 0;
   z-index: 10;
 }
@@ -678,7 +677,6 @@ body {
     padding-right: 40px;
   }
 
-  /* ВОЗВРАЩАЕМ ДЕКСКУПНУЮ ВЫСОТУ И ГОРИЗОНТАЛЬНЫЙ РЕЖИМ */
   html body .hero-section {
     height: 550px;          
     min-height: 550px;      
@@ -688,7 +686,7 @@ body {
     align-items: center;
   }
 
-  /* Контейнер снова горизонтальный флекс-бокс */
+  /* Контейнер горизонтальный флекс-бокс */
   .hero-section .hero-container {
     width: 100%;
     height: 100%;
@@ -699,7 +697,7 @@ body {
     position: relative;
   }
 
-  /* Выделяем тексту строго 55% ширины экрана, чтобы он не лез на кота */
+  /* Выделяем тексту строго 55% ширины экрана, чтобы не лез на кота */
   .hero-section .hero-content {
     width: 55%;
     max-width: 55%; 
@@ -744,7 +742,7 @@ body {
     height: 50px;
   }
   
-  /* ВОЗВРАЩАЕМ КОТА СПРАВА: привязываем его к углу через absolute */
+  /* Кот справа, привязываем его к углу через absolute */
   .hero-section .hero-cat-img {
     position: absolute; 
     right: 0;
@@ -803,7 +801,7 @@ body {
     min-height: auto;
     padding-top: 100px;
     padding-bottom: 0; /* убираем отступы снизу у секции */
-    overflow: hidden;             /* Кот гарантированно никуда не вылезет */
+    overflow: hidden;             /* Кот никуда не вылезет */
   }
 
   html body .hero-section .hero-container {
@@ -853,7 +851,7 @@ body {
     font-size: 16px;
   }
 
-  /* КОТ ЧЕТКО НА ГРАНИЦЕ СЕКЦИИ */
+  /* Кот четко на границе секции */
   .hero-section .hero-cat-img {
     position: relative;
     right: auto;
@@ -863,9 +861,6 @@ body {
     max-width: 320px; 
     height: auto;
     object-fit: contain;
-    
-    /* ИСПРАВЛЕНО: Даем нормальный отступ сверху от кнопки, 
-       а снизу маргин равен 0, чтобы картинка легла на пол */
     margin: 30px auto 0 auto; 
     
     display: block;
@@ -877,7 +872,7 @@ body {
   }
   
   /* ==========================================================================
-     БЛОК "О НАС" 
+     БЛОК "О НАС" (Мобилка)
      ========================================================================== */
   .about-grid {
     display: flex;
