@@ -788,7 +788,7 @@ position: absolute;
 .tablet-only-br {
 display: none;
 }
-/* ИСПРАВЛЕНО: Убрали жесткое ограничение 480px, чтобы сайт не сжимался на экранах побольше */
+
 .main-header,
 .hero-section,
 .about-section,
